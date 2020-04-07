@@ -1,3 +1,3 @@
-echo "Hello Styv!"
-echo "Today is: " $date;
-echo "Current path: " $pwd;
+echo "Hello" $(whoami) "!" 
+echo "Today is: " $(date +%A" "%d" "%B)
+echo "Current path: " $(pwd -L)
