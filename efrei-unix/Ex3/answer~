@@ -1,0 +1,6 @@
+Les commandes permettant de supprimer un fichier terminant par ~ ou commençant par # sont :
+- rm "nomfichier"
+- find . -name "nomfichier" -print
+- find . -name "nomfichier" -exec rm {} \;
+- find -print "nomfichier"
+- find -delete "nomfichier"

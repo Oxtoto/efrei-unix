@@ -1,0 +1,11 @@
+cd~
+emacs -nw .bashrc
+
+alias em='emacs -nw .bashrc'
+alias print='find . -name "*~" -print'
+alias execrm='find . -name "*~" -exec rm  {} \;
+
+source .bashrc
+em
+print
+execrm
